@@ -1,0 +1,7 @@
+node_modules
+secrets/
+.env
+data/
+.env.bak
+*.bak
+trades.csv

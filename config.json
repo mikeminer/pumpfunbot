@@ -1,0 +1,35 @@
+{
+  "activationMinBalanceSol": 0.1,
+  "maxSolPerTrade": 0.05,
+  "maxOpenPositions": 3,
+  "takeProfitPct": 50,
+  "stopLossPct": 25,
+  "globalStopDrawdownPct": 40,
+  "feeReserveSol": 0.02,
+  "maxHoldMinutes": 45,
+
+  "slippagePct": 10,
+  "maxPriceImpactPct": 8,
+  "maxFeesPctOfTrade": 10,
+  "priorityFeeMicroLamports": 200000,
+  "computeUnitsCurve": 150000,
+  "computeUnitsAmm": 250000,
+  "frontRunProtection": true,
+  "jitoTipSol": 0.0001,
+  "jitoFallbackToRpc": true,
+
+  "minScore": 70,
+  "candidateMinAgeSec": 45,
+  "candidateMaxAgeSec": 900,
+  "minRealSolInCurve": 3,
+  "maxBondingProgressPct": 85,
+  "minUniqueBuyers": 15,
+  "maxTop1HolderPct": 12,
+  "maxTop10HolderPct": 35,
+  "maxDevHoldingPct": 10,
+  "skipMayhemMode": true,
+  "buyGraduated": false,
+
+  "positionPollSec": 5,
+  "evaluateEverySec": 15
+}
